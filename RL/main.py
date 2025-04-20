@@ -1,6 +1,6 @@
 import gymnasium as gym
 
-env = gym.make("LunarLander-v3", render_mode="human")
+env = gym.make("CartPole-v1", render_mode="human")
 observation, info = env.reset()
 
 episode_over = False
