@@ -1,13 +1,16 @@
 import gymnasium as gym
+# initialize the env.
+env = gym.make("Walker2d-v5", render_mode="human") 
+observation, info = env.reset(seed=42)
 
-env = gym.make("CartPole-v1", render_mode="human")
-observation, info = env.reset()
+# episode_over = False
+for _ in range(1000):
+    #we insert our policy here.
+    action=env.action_space.sample()
 
-episode_over = False
-while not episode_over:
-    action = env.action_space.sample()  # agent policy that uses the observation and info
-    observation, reward, terminated, truncated, info = env.step(action)
+    # step through the env with action
+    observation,reward,terminated, truncated,info=env.step(action)
 
-    episode_over = terminated or truncated
-
+    if terminated or truncated:
+        observation,info=env.reset()
 env.close()
