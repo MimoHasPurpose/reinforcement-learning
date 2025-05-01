@@ -28,7 +28,13 @@
    - [docs](https://spinningup.openai.com/en/latest/index.html)
 4. stable baseline
    - [docs](https://stable-baselines.readthedocs.io/en/master/)
-5.  [Book on RL](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+5. [Book on RL](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
+6. [multi-agent systems](https://huggingface.co/learn/deep-rl-course/en/unit7/introduction-to-marl)
+7. [RLlib](https://docs.ray.io/en/latest/rllib/index.html)
+8. [tianshou](https://tianshou.org/en/stable/)
+9. [godot-rl](https://huggingface.co/learn/deep-rl-course/unitbonus3/godotrl)
+10. [unity ml agents](https://huggingface.co/learn/deep-rl-course/en/unit5/introduction)
+    - [ml-agents](https://github.com/Unity-Technologies/ml-agents)
 
 - **RL algos:**
 
