@@ -13,7 +13,7 @@
     - different formulations of return
   - **value function:** expected return if u start in that state.
 
-#### Project:
+#### Resources:
 
 1. Flappy-ai
 
@@ -28,6 +28,7 @@
    - [docs](https://spinningup.openai.com/en/latest/index.html)
 4. stable baseline
    - [docs](https://stable-baselines.readthedocs.io/en/master/)
+5.  [Book on RL](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
 - **RL algos:**
 

@@ -1,6 +1,6 @@
 import gymnasium as gym
 # initialize the env.
-env = gym.make("Walker2d-v5", render_mode="human") 
+env = gym.make("LunarLander-v3", render_mode="human") 
 observation, info = env.reset(seed=42)
 
 # episode_over = False
