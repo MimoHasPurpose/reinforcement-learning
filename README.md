@@ -61,3 +61,4 @@ Reward hypothesis:
 
 - All goals can be described by the maximisation of expected cumulative reward.
 - A RL agent’s learning process is heavily linked with the reward distribution over time, however, there is no predefined way on how to design the best reward function.
+- [stanford ai lab blog](https://ai.stanford.edu/blog/rl/)
